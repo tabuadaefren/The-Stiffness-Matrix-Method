@@ -1,5 +1,7 @@
 import sys
 from PyQt4 import QtCore, QtGui, uic
+from problem import ProblemWindow
+
 
 qtCreatorFile1 = "main.ui" # Enter file here.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile1)
@@ -11,7 +13,11 @@ class WelcomeWindow(QtGui.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
         self.prob1_btn.clicked.connect(self.openProb1)
-        self.prob2_btn.clicked.connect(self.openProb2)
+        
+    def LoadProblem(self):
+    	self._new_window = ProblemWindow()
+    	self._new_window.show()
+
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
