@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="icon2.qrc">
+    <normaloff>:/newIcon2/icon2.PNG</normaloff>:/newIcon2/icon2.PNG</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/newIcon/icon.jpg);</string>
   </property>
@@ -71,6 +75,7 @@ color: rgb(255, 255, 255);
  </widget>
  <resources>
   <include location="icon.qrc"/>
+  <include location="icon2.qrc"/>
  </resources>
  <connections/>
 </ui>
