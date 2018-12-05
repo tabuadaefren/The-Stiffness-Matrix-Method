@@ -133,7 +133,7 @@
    <string notr="true">background-color: rgb(4, 33, 39);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="calc_btn">
+   <widget class="QPushButton" name="show_btn">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -165,7 +165,7 @@ font: 75 10pt &quot;Consolas&quot;;</string>
    <widget class="QPushButton" name="clear_btn">
     <property name="geometry">
      <rect>
-      <x>810</x>
+      <x>770</x>
       <y>520</y>
       <width>51</width>
       <height>31</height>
@@ -213,7 +213,7 @@ font: 10pt &quot;Consolas&quot;;</string>
      <rect>
       <x>490</x>
       <y>150</y>
-      <width>361</width>
+      <width>331</width>
       <height>131</height>
      </rect>
     </property>
@@ -399,7 +399,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>490</x>
-      <y>320</y>
+      <y>310</y>
       <width>141</width>
       <height>161</height>
      </rect>
@@ -456,70 +456,6 @@ color: rgb(255, 255, 255);</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="label_35">
-       <property name="font">
-        <font>
-         <family>MS Shell Dlg 2</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>=</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="3">
-      <widget class="QLabel" name="label_18">
-       <property name="font">
-        <font>
-         <family>MS Shell Dlg 2</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string> m</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QLabel" name="label_16">
-       <property name="font">
-        <font>
-         <family>MS Shell Dlg 2</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>=</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLabel" name="label_37">
-       <property name="font">
-        <font>
-         <family>MS Shell Dlg 2</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>=</string>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="3">
       <widget class="QLabel" name="label_17">
        <property name="font">
@@ -551,26 +487,7 @@ color: rgb(255, 255, 255);</string>
         <string notr="true">color: rgb(226, 226, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; H&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_7">
-       <property name="font">
-        <font>
-         <family>MS Shell Dlg 2</family>
-         <pointsize>10</pointsize>
-         <weight>50</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(226, 226, 0);</string>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; L&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;span style=&quot; vertical-align:sub;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -605,7 +522,40 @@ color: rgb(255, 255, 255);</string>
         <string notr="true">color: rgb(226, 226, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; H&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;y&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(226, 226, 0);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="x1">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 85, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="x2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 85, 255);</string>
        </property>
       </widget>
      </item>
@@ -624,35 +574,121 @@ color: rgb(255, 255, 255);</string>
         <string notr="true">color: rgb(226, 226, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; L&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2">
-      <widget class="QLineEdit" name="l1">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 85, 255);</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QLineEdit" name="l2">
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 85, 255);</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;x&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QLineEdit" name="h1">
+      <widget class="QLineEdit" name="x3">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 85, 255);</string>
        </property>
       </widget>
      </item>
      <item row="3" column="2">
-      <widget class="QLineEdit" name="h2">
+      <widget class="QLineEdit" name="y1">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 85, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_18">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string> m</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_35">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_37">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_16">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="y2"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(226, 226, 0);</string>
+       </property>
+       <property name="text">
+        <string>y2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_43">
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>m</string>
        </property>
       </widget>
      </item>
@@ -662,7 +698,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>320</y>
+      <y>310</y>
       <width>151</width>
       <height>161</height>
      </rect>
@@ -688,7 +724,7 @@ color: rgb(255, 255, 255);</string>
       <number>5</number>
      </property>
      <item row="2" column="0">
-      <widget class="QLabel" name="label_27">
+      <widget class="QLabel" name="M">
        <property name="font">
         <font>
          <family>MS Shell Dlg 2</family>
@@ -702,7 +738,7 @@ color: rgb(255, 255, 255);</string>
         <string notr="true">color: rgb(226, 226, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;F&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;M&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -739,7 +775,7 @@ color: rgb(255, 255, 255);</string>
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QLineEdit" name="f3">
+      <widget class="QLineEdit" name="M_2">
        <property name="cursor">
         <cursorShape>WaitCursor</cursorShape>
        </property>
@@ -768,7 +804,7 @@ color: rgb(255, 255, 255);</string>
       </widget>
      </item>
      <item row="0" column="2">
-      <widget class="QLineEdit" name="f1">
+      <widget class="QLineEdit" name="w_2">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 85, 255);</string>
        </property>
@@ -791,7 +827,7 @@ color: rgb(255, 255, 255);</string>
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="label_31">
+      <widget class="QLabel" name="w">
        <property name="font">
         <font>
          <family>MS Shell Dlg 2</family>
@@ -802,15 +838,16 @@ color: rgb(255, 255, 255);</string>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(226, 226, 0);</string>
+        <string notr="true">color: rgb(226, 226, 0);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ω&lt;span style=&quot; vertical-align:sub;&quot;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; vertical-align:sub;&quot;&gt;w&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLabel" name="label_28">
+      <widget class="QLabel" name="P">
        <property name="font">
         <font>
          <family>MS Shell Dlg 2</family>
@@ -824,7 +861,7 @@ color: rgb(255, 255, 255);</string>
         <string notr="true">color: rgb(226, 226, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ω&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;P&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </item>
@@ -861,7 +898,7 @@ color: rgb(255, 255, 255);</string>
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QLineEdit" name="f2">
+      <widget class="QLineEdit" name="P_2">
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 85, 255);</string>
        </property>
@@ -912,7 +949,7 @@ font: 75 13pt &quot;Consolas&quot;;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_13">
+   <widget class="QLabel" name="diagram1">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -923,22 +960,6 @@ font: 75 13pt &quot;Consolas&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-image: url(:/fig1Prefix/figure 1.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>340</y>
-      <width>411</width>
-      <height>231</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/fig2Prefix/figure 2 (2).png);</string>
     </property>
     <property name="text">
      <string/>
@@ -961,7 +982,23 @@ font: 75 18pt &quot;Consolas&quot;;</string>
      <string>FRAME ANALYSIS USING STIFFNESS MATRIX METHOD</string>
     </property>
    </widget>
-   <zorder>calc_btn</zorder>
+   <widget class="QLabel" name="diagram2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>411</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/fig2Prefix/figure 2.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>show_btn</zorder>
    <zorder>clear_btn</zorder>
    <zorder>mdiArea</zorder>
    <zorder>mdiArea_2</zorder>
@@ -970,9 +1007,9 @@ font: 75 18pt &quot;Consolas&quot;;</string>
    <zorder>label_12</zorder>
    <zorder>gridGroupBox</zorder>
    <zorder>label</zorder>
-   <zorder>label_13</zorder>
-   <zorder>label_5</zorder>
+   <zorder>diagram1</zorder>
    <zorder>label_6</zorder>
+   <zorder>diagram2</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew">
@@ -995,20 +1032,20 @@ font: 75 18pt &quot;Consolas&quot;;</string>
   <tabstop>elastic_modulus</tabstop>
   <tabstop>inertia</tabstop>
   <tabstop>area</tabstop>
-  <tabstop>l1</tabstop>
-  <tabstop>l2</tabstop>
-  <tabstop>h1</tabstop>
-  <tabstop>h2</tabstop>
-  <tabstop>f1</tabstop>
-  <tabstop>f2</tabstop>
-  <tabstop>f3</tabstop>
-  <tabstop>calc_btn</tabstop>
+  <tabstop>x1</tabstop>
+  <tabstop>x2</tabstop>
+  <tabstop>x3</tabstop>
+  <tabstop>y1</tabstop>
+  <tabstop>w_2</tabstop>
+  <tabstop>P_2</tabstop>
+  <tabstop>M_2</tabstop>
+  <tabstop>show_btn</tabstop>
   <tabstop>clear_btn</tabstop>
  </tabstops>
  <resources>
   <include location="fig1.qrc"/>
-  <include location="fig2.qrc"/>
   <include location="icon1.qrc"/>
+  <include location="fig2.qrc"/>
  </resources>
  <connections/>
 </ui>
