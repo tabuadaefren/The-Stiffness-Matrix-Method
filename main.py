@@ -12,7 +12,7 @@ class WelcomeWindow(QtGui.QMainWindow, Ui_MainWindow):
         QtGui.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
-        self.prob1_btn.clicked.connect(self.openProb1)
+        self.mainButton.clicked.connect(self.LoadProblem)
         
     def LoadProblem(self):
     	self._new_window = ProblemWindow()
