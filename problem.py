@@ -81,14 +81,14 @@ class ProblemWindow(QtGui.QMainWindow, Ui_MainWindow):
             self.showErrorDialog()
 
         
-    def Calculations()
+    def Calculations():
     	Xb = [0, x1, x1+x2]
         Xe = [ x1, x1+x2, x1+x2+x3]
         Yb = [0, y1, y1]
         Ye = [y1, y1, y1-y2]
 
         xd = [ Xe[0]-Xb[0], Xe[1]-Xb[1], Xe[2]-Xb[2] ]
-		yd = [ Ye[0]-Yb[0], Ye[1]-Yb[1], Ye[2]-Yb[2] ]
+        yd = [ Ye[0]-Yb[0], Ye[1]-Yb[1], Ye[2]-Yb[2] ]
 
         L = [sqrt( (xd[0])^2 + (yd[0])^2), sqrt( (xd[1])^2 + (yd[1])^2 ), sqrt( (xd[2])^2 + (yd[2])^2 )]
         
